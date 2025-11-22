@@ -20,7 +20,9 @@ function infoPop() {
   document.getElementById('d-name').textContent = collection_names[url][0];
   document.getElementById('puny-name').textContent = url;
   document.getElementById('name-date').textContent = collection_names[url][1];
+  document.getElementById('source-dl').href = "https://unicodedomain.com/?utm_source=" + url;
 }
 
 // Run after DOM is loaded
+
 document.addEventListener('DOMContentLoaded', infoPop);
