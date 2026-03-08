@@ -21,6 +21,7 @@ function infoPop() {
   document.getElementById('puny-name').textContent = url;
   document.getElementById('name-date').textContent = collection_names[url][1];
   document.getElementById('source-dl').href = "https://unicodedomain.com/?utm_source=" + url;
+  document.getElementById('spaceship-link').href = "https://www.spaceship.com/domain-search/?query=" + url + "&utm_source=unicodedomain.com";
 }
 
 // Run after DOM is loaded
