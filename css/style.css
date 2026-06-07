@@ -5,7 +5,7 @@ h1 { text-align: center; }
 h2 { text-align: center; padding: 40px 0 10px 0; }
 h3 { padding: 30px 0 10px 0; }
 
-ul { padding: 0; }
+ul { padding: 0; margin: 16px 0; }
 .ul-list { padding: 10px 10px 10px 50px; }
 
 .container { max-width: 950px; margin: auto; padding: 20px; margin-top: 30px; margin-bottom: 30px; border: 1px dashed; }
@@ -39,4 +39,7 @@ footer { padding: 30px 0 0 0; text-align: center; }
   .header-logo { max-width: 75vw; }
   .ul-list { padding: 10px 10px 10px 30px; }
   .header-link { font-size: 7vmin; }
+  .container { border: none; }
+  #nav-header button { margin: 5px 0; }
+  ul { margin: 10px 0; }
 }
