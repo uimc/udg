@@ -8,11 +8,17 @@ h3 { padding: 30px 0 10px 0; }
 ul { padding: 0; margin: 16px 0; }
 .ul-list { padding: 10px 10px 10px 50px; }
 
-.container { max-width: 950px; margin: auto; padding: 20px; margin-top: 30px; margin-bottom: 30px; border: 1px dashed; }
+.container { max-width: 950px; margin: auto; padding: 20px; margin-top: 30px; margin-bottom: 30px; border: 0px dashed; }
 
 a:link { background-color: transparent; text-decoration: none; }
 a:visited { color: #0000FF; text-decoration: none; }
 a:hover { color: #FFF; background-color: #0000FF; text-decoration: none; }
+
+#nav-header a { margin: 5px 0 0px 0; font-weight: normal; display: inline-block; padding: 5px 10px; background-color: darkblue; color: #ffffff; text-decoration: none; border-radius: 5px; text-align: center; }
+#nav-header a:hover { background-color: blue; }
+
+#nav-header .sale-btn a { background-color: limegreen; }
+#nav-header .sale-btn a:hover { background-color: lime; }
 
 .header-link { margin-top: 60px; font-size: 40px; }
 
@@ -21,8 +27,8 @@ a:hover { color: #FFF; background-color: #0000FF; text-decoration: none; }
 
 .wordwrapper { word-wrap: break-word; }
 
-#nav-header { padding: 0 10px; position: sticky; top: 0; background: #f0f0f0; border: 1px dashed; text-align: center; }
-#nav-header li { display: inline; padding: 6px; }
+#nav-header { position: sticky; top: 0; background: #f0f0f0; border: 1px solid; text-align: center; }
+#nav-header li { display: inline; padding: 10px 0px; }
 
 #cc-table { border-collapse: collapse; width: 100%; margin: 30px 0; }
 td, th { border: 1px solid #dddddd; text-align: left; padding: 8px; border: 1px dashed; }
@@ -40,6 +46,5 @@ footer { padding: 30px 0 0 0; text-align: center; }
   .ul-list { padding: 10px 10px 10px 30px; }
   .header-link { font-size: 7vmin; }
   .container { border: none; }
-  #nav-header button { margin: 5px 0; }
   ul { margin: 10px 0; }
 }
